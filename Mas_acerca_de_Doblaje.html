@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Mas acerca de Doblaje</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="./css/Styles_of_CheetahStudios.css">
+    <link rel="stylesheet" type="text/css" href="./css/styles_of_cheetahstudios.css">
 
     <style>
         h1 {
@@ -37,17 +37,17 @@
             <div class="row pb-5">
                 <div class="col-sm-12 pb-auto">
                     <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top justify-content-left">
-                        <a class="nav-link " href="Index.html">Inicio</a>
+                        <a class="nav-link " href="index.html">Inicio</a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                       <span class="navbar-toggler-icon"></span>
                     </button>
                         <div class="collapse navbar-collapse" id="collapsibleNavbar">
                             <ul class="navbar-nav">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="Nuestros_Servicios.html">Nuestros Servicios</a>
+                                    <a class="nav-link" href="nuestros_servicios.html">Nuestros Servicios</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="Mas_acerca_de_Doblaje.html">Más acerca de Doblaje</a>
+                                    <a class="nav-link" href="mas_acerca_de_doblaje.html">Más acerca de Doblaje</a>
                                 </li>
                             </ul>
                         </div>
@@ -84,7 +84,7 @@
                 </button>
             </h4>
             <div id="Vamos" class="collapse">
-                <h6 style="text-align: center;">Intenta adivinar un número entre 1 y 20. Sólo tienes 6 intentos posibles.</h6>
+                <h6 style="text-align: center;">Intenta adivinar un número entre 1 y 15. Sólo tienes 4 intentos posibles.</h6>
                 <br>
                 <p style="color: blanchedalmond; text-align: center">¿Cuál es tu nombre? <input type="text" id="nombre"></p>
                 <button onclick="jugar_ahora()" type="button" class="btn btn-outline-info text-aligne-center">Jugar</button>
@@ -95,9 +95,9 @@
         <script>
             function jugar_ahora() {
 
-                var max = 20;
+                var max = 15;
                 var min = 1;
-                var cant_intentos = 6;
+                var cant_intentos = 4;
                 var acerto = false;
                 var numero_aleatorio = Math.round(Math.random() * (max - min) + min);
                 var numero;
