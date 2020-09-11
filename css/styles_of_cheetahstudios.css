@@ -1,0 +1,101 @@
+h1 {
+    text-align: center;
+    margin-top: auto;
+    color: rgb(36, 35, 32);
+}
+
+h6 {
+    text-align: center;
+}
+
+.grid-item2 {
+    font-size: 20px;
+    margin-bottom: -1%;
+    font-family: 'Lusitana';
+}
+
+.div1 {
+    background-image: url("../img/Doblae2.jpg");
+    min-height: auto;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*background-position: center;*/
+    position: relative;
+}
+
+.div2 {
+    background-image: url("../img/fondo\ de\ casa-studio.jpg");
+    min-height: auto;
+    width: 100%;
+    /*background-position: center;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.div3 {
+    background-image: url("../img/fondo\ de\ contacto.png");
+    min-height: auto;
+    width: 100%;
+    /*background-position: center;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.div4 {
+    background-image: url("../img/Fondo\ de\ pagina.jpg");
+    min-height: auto;
+    width: 100%;
+    /*background-position: center;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.div5 {
+    background-image: url("../img/Gran\ fondo\ de\ pagina.jpg");
+    min-height: auto;
+    width: 100%;
+    /*background-position: center;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+@media screen and (max-width: 760px) {
+    .div1 {
+        background-image: url("../img/Doblae2-760.jpg");
+    }
+    .div2 {
+        background-image: url("../img/fondo\ de\ casa-studio760.jpg");
+    }
+    .div3 {
+        background-image: url("../img/fondo\ de\ contacto760.png");
+    }
+    .div4 {
+        background-image: url("../img/Fondo\ de\ pagina760.jpg");
+    }
+    .div5 {
+        background-image: url("../img/Gran\ fondo\ de\ pagina760.jpg");
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .div1 {
+        background-image: url("../img/Doblae2-360.jpg");
+    }
+    .div2 {
+        background-image: url("../img/fondo\ de\ casa-studio360.jpg");
+    }
+    .div3 {
+        background-image: url("../img/fondo\ de\ contacto360.png");
+    }
+    .div4 {
+        background-image: url("../img/Fondo\ de\ pagina360.jpg");
+    }
+    .div5 {
+        background-image: url("../img/Gran\ fondo\ de\ pagina360.jpg");
+    }
+}
